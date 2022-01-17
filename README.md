@@ -1,7 +1,7 @@
 
 # DVD Screensaver NX    
 
-Classic DVD screensaver for Nintendo Switch made in Lua using [LÖVE](https://github.com/love2d/love) and [LÖVE Potion](https://github.com/lovebrew/lovepotion)
+Classic DVD screensaver for Nintendo Switch made in Lua to demonstrate using [LÖVE](https://github.com/love2d/love) and [LÖVE Potion](https://github.com/lovebrew/lovepotion) for switch homebrew
 
 # Build Requirements
 
