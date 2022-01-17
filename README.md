@@ -7,3 +7,6 @@ Classic DVD screensaver for Nintendo Switch using [LÖVE](https://github.com/lov
 
 To build, you'll need DevkitPro, LoveBrew, and LovePotion. Once you've installed all 3, simply run 'lovebrew build' in the directory.
 
+# Known issues
+
+- Screen boundaries are messed up when in docked mode
