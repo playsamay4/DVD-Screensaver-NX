@@ -3,3 +3,7 @@
 
 Classic DVD screensaver for Nintendo Switch using [LÖVE](https://github.com/love2d/love) and [LÖVE Potion](https://github.com/lovebrew/lovepotion)
 
+# Build Requirements
+
+To build, you'll need DevkitPro, LoveBrew, and LovePotion. Once you've installed all 3, simply run 'lovebrew build' in the directory.
+
