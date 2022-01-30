@@ -15,16 +15,10 @@ function love.load()
     dvdXSpeed = 100
     dvdYSpeed = 150
     currentSpriteUse = 0
-
-
 end
 
 
 function love.update(dt) 
-    print(dvdX)
-    print(dvdY)
-
-
     if dvdXV == 1 then dvdX = dvdX + dvdXSpeed*dt end
     if dvdXV == 0 then dvdX = dvdX - dvdXSpeed*dt end
     if dvdYV == 1 then dvdY = dvdY + dvdYSpeed*dt end
@@ -59,36 +53,29 @@ end
 function love.draw()
     if currentSpriteUse == 0 then
         dvdSpriteU = dvdSpriteW
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 1 then
         dvdSpriteU = dvdSpriteR
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 2 then
         dvdSpriteU = dvdSpriteG
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 3 then
         dvdSpriteU = dvdSpriteB
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 4 then
         dvdSpriteU = dvdSpriteY
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 5 then
         dvdSpriteU = dvdSpriteT
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 6 then
         dvdSpriteU = dvdSpriteP
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
     if currentSpriteUse == 7 then
         dvdSpriteU = dvdSpriteO
-        love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
     end
+    love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
 end
 
 function love.gamepadpressed(joystick,button)
