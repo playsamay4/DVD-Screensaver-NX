@@ -12,5 +12,3 @@ To build, you'll need DevkitPro (enable switch build tools), LoveBrew, and LoveP
 - Screen boundaries are messed up when in docked mode
 
 - App will not launch when run through Applet Mode (through the captures applet). Running it through title takeover will work fine however.
-
-- Sometimes crashes upon exiting. I have no clue why this happens but i think its a LovePotion problem
