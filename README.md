@@ -5,7 +5,7 @@ Classic DVD screensaver for Nintendo Switch made in Lua to demonstrate using [LÃ
 
 # Build Requirements
 
-To build, you'll need DevkitPro (enable switch build tools), LoveBrew, and LovePotion. Once you've installed all 3, simply run 'lovebrew build' in the directory.
+To build, you'll need DevkitPro (enable switch build tools), and LoveBrew. Once you've installed them, simply run 'lovebrew build' in the directory.
 
 # Known issues
 
