@@ -51,35 +51,18 @@ end
 
 
 function love.draw()
-    if currentSpriteUse == 0 then
-        dvdSpriteU = dvdSpriteW
-    end
-    if currentSpriteUse == 1 then
-        dvdSpriteU = dvdSpriteR
-    end
-    if currentSpriteUse == 2 then
-        dvdSpriteU = dvdSpriteG
-    end
-    if currentSpriteUse == 3 then
-        dvdSpriteU = dvdSpriteB
-    end
-    if currentSpriteUse == 4 then
-        dvdSpriteU = dvdSpriteY
-    end
-    if currentSpriteUse == 5 then
-        dvdSpriteU = dvdSpriteT
-    end
-    if currentSpriteUse == 6 then
-        dvdSpriteU = dvdSpriteP
-    end
-    if currentSpriteUse == 7 then
-        dvdSpriteU = dvdSpriteO
-    end
+    if currentSpriteUse == 0 then dvdSpriteU = dvdSpriteW end   
+    if currentSpriteUse == 1 then dvdSpriteU = dvdSpriteR end
+    if currentSpriteUse == 2 then dvdSpriteU = dvdSpriteG end
+    if currentSpriteUse == 3 then dvdSpriteU = dvdSpriteB end
+    if currentSpriteUse == 4 then dvdSpriteU = dvdSpriteY end
+    if currentSpriteUse == 5 then dvdSpriteU = dvdSpriteT end
+    if currentSpriteUse == 6 then dvdSpriteU = dvdSpriteP end
+    if currentSpriteUse == 7 then dvdSpriteU = dvdSpriteO end
+
     love.graphics.draw(dvdSpriteU, dvdX,dvdY,0,1,1)
 end
 
 function love.gamepadpressed(joystick,button)
-    if button == 'start' then
-        love.event.quit()
-    end
+    if button == 'start' then love.event.quit() end
 end
